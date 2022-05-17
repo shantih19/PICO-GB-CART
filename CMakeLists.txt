@@ -3,7 +3,6 @@
 
 cmake_minimum_required(VERSION 3.12)
 
-set(PICO_EXTRAS_PATH F:/Downloads/pico-extras-master/pico-extras-master)
 # Pull in PICO SDK (must be before project)
 include(pico_sdk_import.cmake)
 include(pico_extras_import.cmake)
@@ -30,14 +29,14 @@ boot.c
 GBCode/Bootloader/GB/bootloadercode.c
 
 #ROMS
-Roms/DRMARIO.c
-Roms/TETRIS.c
-Roms/ZELDA.c
-Roms/ALLEYWAY.c
-Roms/SUPERMARIOLAND.c
-Roms/MARIOANDYOSHI.c
-Roms/ALSTARCHALLENGE2.c
-Roms/pocket.c
+#Roms/DRMARIO.c
+#Roms/TETRIS.c
+#Roms/ZELDA.c
+#Roms/ALLEYWAY.c
+#Roms/SUPERMARIOLAND.c
+#Roms/MARIOANDYOSHI.c
+#Roms/ALSTARCHALLENGE2.c
+#Roms/pocket.c
 
 )
  
